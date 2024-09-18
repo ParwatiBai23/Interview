@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-09-10 22:19:13.249214",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "experience",
+  "skill",
+  "applied_role",
+  "column_break_gqva",
+  "writing_level",
+  "speaking_level",
+  "reading_level",
+  "education"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "experience",
+   "fieldtype": "Int",
+   "label": "Experience"
+  },
+  {
+   "fieldname": "skill",
+   "fieldtype": "Data",
+   "label": "Skill"
+  },
+  {
+   "fieldname": "applied_role",
+   "fieldtype": "Data",
+   "label": "Applied Role"
+  },
+  {
+   "fieldname": "column_break_gqva",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "writing_level",
+   "fieldtype": "Data",
+   "label": "Writing level"
+  },
+  {
+   "fieldname": "speaking_level",
+   "fieldtype": "Data",
+   "label": "Speaking level"
+  },
+  {
+   "fieldname": "reading_level",
+   "fieldtype": "Data",
+   "label": "Reading level"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Select",
+   "label": "Education ",
+   "options": "12th\nBSc\nMSc\nBCA"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-18 11:30:51.919807",
+ "modified_by": "Administrator",
+ "module": "Interview Management System",
+ "name": "Candidate",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
